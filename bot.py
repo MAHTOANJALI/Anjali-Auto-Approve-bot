@@ -38,7 +38,7 @@ async def approve(_, m : Message):
         add_group(m.chat.id)
         await app.approve_chat_join_request(op.id, kk.id)
         img = random.choice(gif)
-        await app.send_video(kk.id,img, "**Hello {}!\nWelcome To {}\n\n__Powerd By : @SdBotz__**".format(m.from_user.mention, m.chat.title))
+        await app.send_video(kk.id,img, "**Hello {}!\nWelcome To {}\n\n__Powerd By : @QUEENx_GOD**".format(m.from_user.mention, m.chat.title))
         add_user(kk.id)
     except errors.PeerIdInvalid as e:
         print("user isn't start bot(means group)")
@@ -55,7 +55,7 @@ async def op(_, m :Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🗯 Channel", url="https://t.me/AnjalixSupportxGroup"),
+                        InlineKeyboardButton("🗯 Channel", url="https://t.me/+1ipwZ6f0hWoxZmI1"),
                         InlineKeyboardButton("💬 Support", url="https://t.me/AnjalixSupportxGroup")
                     ],[
                         InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/anjaliautoapprovrbot?startgroup")
@@ -97,10 +97,10 @@ async def chk(_, cb : CallbackQuery):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🗯 Channel", url="https://t.me/AnjalixSupportxGroup"),
+                        InlineKeyboardButton("🗯 Channel", url="https://t.me/+1ipwZ6f0hWoxZmI1"),
                         InlineKeyboardButton("💬 Support", url="https://t.me/AnjalixSupportxGroup")
                     ],[
-                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/SDAutoApproveBot?startgroup")
+                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/anjaliautoapprovrbot?startgroup")
                     ]
                 ]
             )
