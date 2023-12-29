@@ -1,4 +1,4 @@
-# Auto-Approve-Bot
+# Anjali-Auto-Approve-Bot
 👾 Hey I'll Accept telegram join requests. Easy to use and simple.
 
 ## 🚀 Demo Bot
@@ -25,7 +25,7 @@
 
 
   ```ssh
-  git clone https://github.com/ImDenuwan/Auto-Approve-Bot
+  git clone https://github.com/systemx5/Anjali-Auto-Approve-bot
   pip3 install -r requirements.txt
   # fill config.py vars
   python3 bot.py
