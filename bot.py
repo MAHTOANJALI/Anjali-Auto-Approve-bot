@@ -14,17 +14,17 @@ app = Client(
 )
 
 gif = [
-    'https://telegra.ph/file/a5a2bb456bf3eecdbbb99.mp4',
-    'https://telegra.ph/file/03c6e49bea9ce6c908b87.mp4',
-    'https://telegra.ph/file/9ebf412f09cd7d2ceaaef.mp4',
-    'https://telegra.ph/file/293cc10710e57530404f8.mp4',
-    'https://telegra.ph/file/506898de518534ff68ba0.mp4',
-    'https://telegra.ph/file/dae0156e5f48573f016da.mp4',
-    'https://telegra.ph/file/3e2871e714f435d173b9e.mp4',
-    'https://telegra.ph/file/714982b9fedfa3b4d8d2b.mp4',
-    'https://telegra.ph/file/876edfcec678b64eac480.mp4',
-    'https://telegra.ph/file/6b1ab5aec5fa81cf40005.mp4',
-    'https://telegra.ph/file/b4834b434888de522fa49.mp4'
+    'https://te.legra.ph/file/a097a5ba79a8982845e37.mp4',
+    'https://te.legra.ph/file/a097a5ba79a8982845e37.mp4',
+    'https://te.legra.ph/file/a097a5ba79a8982845e37.mp4',
+    'https://te.legra.ph/file/a097a5ba79a8982845e37.mp4',
+    'https://te.legra.ph/file/a097a5ba79a8982845e37.mp4',
+    'https://te.legra.ph/file/a097a5ba79a8982845e37.mp4',
+    'https://te.legra.ph/file/a097a5ba79a8982845e37.mp4',
+    'https://te.legra.ph/file/a097a5ba79a8982845e37.mp4',
+    'https://te.legra.ph/file/a097a5ba79a8982845e37.mp4',
+    'https://te.legra.ph/file/a097a5ba79a8982845e37.mp4',
+    'https://te.legra.ph/file/a097a5ba79a8982845e37.mp4'
 ]
 
 
@@ -55,21 +55,21 @@ async def op(_, m :Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🗯 Channel", url="https://t.me/SDBOTs_inifinity"),
-                        InlineKeyboardButton("💬 Support", url="https://t.me/SDBOTz")
+                        InlineKeyboardButton("🗯 Channel", url="https://t.me/AnjalixSupportxGroup"),
+                        InlineKeyboardButton("💬 Support", url="https://t.me/AnjalixSupportxGroup")
                     ],[
-                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/SDAutoApproveBot?startgroup")
+                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/anjaliautoapprovrbot?startgroup")
                     ]
                 ]
             )
             add_user(m.from_user.id)
-            await m.reply_photo("https://telegra.ph/file/a782e3bbbe40df8a4bb67.jpg", caption="**🦊 Hello {}!\nI'm an auto approve [Admin Join Requests]({}) Bot.\nI can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.\n\n__Powerd By : @SdBotz__**".format(m.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard)
+            await m.reply_photo("https://te.legra.ph/file/99b2e7f29e294bcd98ff1.jpg", caption="**🦊 Hello {}!\nI'm an auto approve [Admin Join Requests]({}) Bot.\nI can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.\n\n__Powerd By : @QUEENx_GOD**".format(m.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard)
     
         elif m.chat.type == enums.ChatType.GROUP or enums.ChatType.SUPERGROUP:
             keyboar = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("💁‍♂️ Start me private 💁‍♂️", url="https://t.me/SDAutoApproveBot?start=start")
+                        InlineKeyboardButton("💁‍♂️ Start me private 💁‍♂️", url="https://t.me/anjaliautoapprovrbot?start=start")
                     ]
                 ]
             )
@@ -97,15 +97,15 @@ async def chk(_, cb : CallbackQuery):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🗯 Channel", url="https://t.me/SDBOTs_inifinity"),
-                        InlineKeyboardButton("💬 Support", url="https://t.me/SDBOTz")
+                        InlineKeyboardButton("🗯 Channel", url="https://t.me/AnjalixSupportxGroup"),
+                        InlineKeyboardButton("💬 Support", url="https://t.me/AnjalixSupportxGroup")
                     ],[
                         InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/SDAutoApproveBot?startgroup")
                     ]
                 ]
             )
             add_user(cb.from_user.id)
-            await cb.message.edit("**🦊 Hello {}!\nI'm an auto approve [Admin Join Requests]({}) Bot.\nI can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.\n\n__Powerd By : @SdBotz__**".format(cb.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard, disable_web_page_preview=True)
+            await cb.message.edit("**🦊 Hello {}!\nI'm an auto approve [Admin Join Requests]({}) Bot.\nI can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.\n\n__Powerd By : @QUEENx_GOD**".format(cb.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard, disable_web_page_preview=True)
         print(cb.from_user.first_name +" Is started Your Bot!")
     except UserNotParticipant:
         await cb.answer("🙅‍♂️ You are not joined to channel join and try again. 🙅‍♂️")
